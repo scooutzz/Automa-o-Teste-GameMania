@@ -33,8 +33,8 @@ public class HomePage {
 		
 		// Login
 		driver.findElement(By.xpath("/html/body/app-root/app-header/section/div/nav/a[3]")).click();
-		driver.findElement(By.id("email")).sendKeys("admin@email.com");
-		driver.findElement(By.id("senha")).sendKeys("admin123");
+		driver.findElement(By.id("email")).sendKeys("testeautomatico@email.com");
+		driver.findElement(By.id("senha")).sendKeys("123456");
 		driver.findElement(By.xpath("/html/body/app-root/app-login/div/form/button")).click();
 		
 	}
